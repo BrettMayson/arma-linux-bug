@@ -1,0 +1,14 @@
+[package]
+name = "test"
+version = "0.1.0"
+authors = ["Brett <brett@bmandesigns.com>"]
+edition = "2018"
+
+[lib]
+name = "test"
+crate-type = ["cdylib"]
+
+[dependencies]
+arma-rs = { git = "https://github.com/synixebrett/arma-rs", branch = "master" }
+arma-rs-macros = { git = "https://github.com/synixebrett/arma-rs", branch = "master" }
+libc = "0.2"
